@@ -9,8 +9,16 @@ public class Click : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
-    public void Quitgame()
+    public void QuitGame()
     {
         Application.Quit();
+    }
+    public void BackMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+    public void ChangeMenu()
+    {
+        SceneManager.LoadScene(2);
     }
 }
